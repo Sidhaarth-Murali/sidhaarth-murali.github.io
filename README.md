@@ -4,7 +4,7 @@
 
 I am a Master's student in Computer Science at Carnegie Mellon University (CMU), focusing on AI Safety & Alignment, World Models, and Reinforcement Learning.
 
-My research centers on building foundations for reasoning in complex multi-turn tasks. I work on long-horizon reward modeling for complex reasoning tasks using hierarchical reinforcement learning, addressing the challenge of credit assignment over extended timeframes.
+I want to move beyond "natural token processing" (next-token prediction) toward models that learn from delayed rewards and structured tasks. My research centers on building foundations for reasoning in complex multi-turn tasks, treating research as a sustained effort — something I'm willing to dedicate years to, until I feel I've made real progress toward solving the problem, not just incremental advances.
 
 ## Research Areas
 
@@ -13,11 +13,19 @@ My research centers on building foundations for reasoning in complex multi-turn 
 - **Hierarchical RL**: Multi-turn reasoning and credit assignment
 - **Embodied Agents**: Integrating reasoning into real-world action
 
-## Recent Work
+## What I've Done
 
-- **GRILL**: Guided Self-Correction in LLMs via Hierarchical Multi-Turn RL (NeurIPS 2025, under review)
+- **GRILL**: Developed a solver–guider framework for hierarchical credit assignment in LLMs, showing gains on MBPP and MATH500 benchmarks compared to GRPO
 - **SELF-PERCEPT**: Introspection Improves LLMs' Detection of Multi-Person Mental Manipulation (ACL Main 2025)
 - **DeepTeam**: Agentic red-teaming framework for LLM safety evaluation
+- **Hands-on Experience**: Training/evaluating LLaMA models, building ToM benchmarks, information retrieval for medical QA systems
+- **Stabilization Strategies**: Explored RLHF-style optimization under noisy guider signals
+
+## What I Want to Do Next
+
+- **General Long Credit Assignment**: Extend hierarchical RL approaches to settings beyond program synthesis and math reasoning, addressing tasks with deeply delayed feedback
+- **World Models Beyond Language**: Investigate models that integrate language with other reasoning modalities (spatial, visual, procedural)
+- **Grounded Instruction Following**: Study how agents can learn structured policies that adapt to complex instructions and partially observable environments
 
 ## Experience
 
