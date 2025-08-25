@@ -27,11 +27,8 @@
           </div>
         </div>
 
-        <div class="profile-image" onclick="flipImage()">
-          <div class="flip-container" id="flipContainer">
-            <img src="images/pfp.jpeg" alt="Sidhaarth Sredharan Murali" class="front">
-            <img src="images/pfp2.jpg" alt="Sidhaarth Sredharan Murali" class="back">
-          </div>
+        <div class="profile-image">
+          <img src="images/pfp.jpeg" alt="Sidhaarth Sredharan Murali">
         </div>
       </div>
 
@@ -190,21 +187,6 @@
     </section>
   </div>
 
-  <script>
-    function flipImage() {
-      const container = document.getElementById('flipContainer');
-      if (container) {
-        container.classList.toggle('flipped');
-        console.log('Flip toggled, classes:', container.className);
-      } else {
-        console.error('Flip container not found');
-      }
-    }
-    
-    // Ensure the function works after page load
-    document.addEventListener('DOMContentLoaded', function() {
-      console.log('Page loaded, flip container:', document.getElementById('flipContainer'));
-    });
-  </script>
+
 </body>
 </html>
